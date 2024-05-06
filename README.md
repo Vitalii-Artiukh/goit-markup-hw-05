@@ -3,6 +3,65 @@
 This is my first project
 
 <!--
+
+================= БЛОКОВА МОДЕЛЬ =============
+
+box-sizing: content-box | border-box | inherit
+
+================ ГЕОМЕТРІЯ ЕЛЕМЕНТА ====================
+
+               СКИДАННЯ
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+====================== Властивість border ============================
+
+border: ширина стиль колір;
+
+Ширина рамки визначається в пікселях.
+Стиль — одне значення з набору можливих значень, найпоширенішими значеннями є
+solid, dashed і dotted.
+Колір задається в будь-якому форматі, зазвичай HEX
+
+border-width: значення;
+border-style: значення;
+border-color: значення;
+
+border-top: ширина стиль колір;
+border-right: ширина стиль колір;
+border-bottom: ширина стиль колір;
+border-left: ширина стиль колір;
+
+border-radius: %; чи px;
+
+border-top-left-radius: значення;
+border-top-right-radius: значення;
+border-bottom-right-radius: значення;
+border-bottom-left-radius: значення;
+
+================== приховати зайвий контент =================
+
+overflow: hidden;
+overflow: visible | hidden | scroll | auto
+
+
+
+
 flex-wrap: wrap;
 gap
 row-gap
@@ -83,6 +142,7 @@ z-index: 2; z-index: 1; z-index: -1;
 <form>
 	-- Елементи форми --
 
+  <button type="submit">Submit feedback</button>
   <button type="submit">Submit feedback</button>
 </form>
 
