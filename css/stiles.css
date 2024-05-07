@@ -651,6 +651,7 @@ footer .studio {
 .form-input {
   width: 100%;
   height: 40px;
+  background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
@@ -742,9 +743,9 @@ footer .studio {
   background-color: #404bbf;
 }
 
-.form-input-checkbox:focus + .form-label-checkbox .checkbox-custom {
+/*.form-input-checkbox:focus + .form-label-checkbox .checkbox-custom {
   border: 2px solid rgba(46, 47, 66, 0.6);
-}
+}*/
 
 .sent-form-btn {
   display: block;
