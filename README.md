@@ -484,4 +484,55 @@ max-height: 80%;
 overflow-y: auto;
 }
 
+================ MEDIA ===================
+
+body {
+  background-color: white;
+}
+
+/* Застосовується коли ширина в'юпорта менше або дорівнює 600px */
+
+@media (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Застосовується коли ширина в'юпорта більше або дорівнює 800px */
+
+@media (min-width: 800px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media print {
+  body {
+    color: green;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  /* ... */
+}
+
+@media only|not media-type ****only|and|not ****(media-feature) {
+  /*
+    Набір CSS-правил, які потрібно застосувати до документа,
+    якщо умова перевірки медіатипу та виразу істинна
+  */
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (max-width: 600px) (or)|(,)(min-width: 960px){
+  body {
+    background-color: gray;
+  }
+}
+
 -->
